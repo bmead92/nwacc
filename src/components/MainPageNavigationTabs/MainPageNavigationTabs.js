@@ -13,6 +13,21 @@ const MainPageNavigationTabs = () => {
           </div>
         );
       })}
+      <Collapsible trigger="Important Documents">
+        {Strings.importantDocuments.map((doc) => {
+          return (
+            <div className="mainPageNavigationTab" key={doc.index}>
+              <a
+                className="mainPageNavigationLink"
+                href={doc.url}
+                title={doc.label}
+              >
+                {doc.label}
+              </a>
+            </div>
+          );
+        })}
+      </Collapsible>
       <Collapsible trigger="Member Clubs">
         {Strings.memberClubs.map((club) => {
           return (

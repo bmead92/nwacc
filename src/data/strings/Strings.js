@@ -1,7 +1,7 @@
-import C3 from "../../assets/images/NWACC/c3.jpg";
+import placeHolder from "../../assets/images/NWACC/placeholder-headshot.png";
 
 const Strings = {
-  people: "People",
+  people: "Notable People",
   header: {
     label: `header`,
     content: `Northwest Association of Corvette Clubs`,
@@ -10,15 +10,8 @@ const Strings = {
     label: `introduction`,
     content: `
         The Northwest Association of Corvette Clubs was created in 1972 to organize Corvette Clubs in the Pacific Northwest.
-        Our goals are to:
+        Our goals are to increase participation, improve communication among member Corvette Clubs, further the development and quality of Corvettes, and improve services avaiable to Corvette owners.
         `,
-    goals: [
-      `Increase participation`,
-      `Improve communication among member Corvette Clubs`,
-      `Improve the Corvette Image to the general public`,
-      `Further the development and quality of Corvettes`,
-      `Improve services available to Corvette owners`,
-    ],
   },
   links: {
     mainPage: [
@@ -58,10 +51,6 @@ const Strings = {
       //   key: 6,
       // },
       // {
-      //   label: "Contact Us",
-      //   url: "http://nwacconline.com/contact_us.html", TODO: TAKE EMAIL FORM
-      //   key: 7,
-      // },
       // {
       //   label: "In Memoriam",
       //   url: "http://nwacconline.com/In%20Memoriam.html",
@@ -80,34 +69,9 @@ const Strings = {
         key: 0,
       },
       {
-        label: "Membership",
-        url: "http://nwacconline.com/membership.html",
-        key: 3,
-      },
-      {
-        label: "Membership Clubs",
-        url: "http://nwacconline.com/member_clubs.html",
-        key: 4,
-      },
-      {
         label: "NWACC Meetings",
         url: "http://nwacconline.com/nwacc%20meetings.html", // TODO: refactor dupe
         key: 5,
-      },
-      {
-        label: "Constitution",
-        url: "http://nwacconline.com/constitution.html",
-        key: 6,
-      },
-      {
-        label: "By-Laws",
-        url: "http://nwacconline.com/bylaws.html",
-        key: 7,
-      },
-      {
-        label: "Reimbursement Form",
-        url: "http://nwacconline.com/reimbursement_form.html",
-        key: 8,
       },
     ],
   },
@@ -119,25 +83,25 @@ const Strings = {
     {
       title: "President",
       name: "Arthur Green",
-      picture: C3,
+      picture: placeHolder,
       key: 0,
     },
     {
       title: "Vice President",
       name: "Rob Spring",
-      picture: C3,
+      picture: placeHolder,
       key: 1,
     },
     {
       title: "Secretary",
       name: "Bob Hooper",
-      picture: C3,
+      picture: placeHolder,
       key: 2,
     },
     {
       title: "Treasurer",
       name: "Dave Kaiser",
-      picture: C3,
+      picture: placeHolder,
       key: 3,
     },
   ],
@@ -145,31 +109,32 @@ const Strings = {
     {
       title: "Autocross",
       name: "Jami Olerich",
-      picture: C3,
+      picture: placeHolder,
       key: 0,
     },
     {
       title: "Competition",
       name: "Chunk Hulka",
-      picture: C3,
+      picture: placeHolder,
       key: 1,
     },
     {
       title: "Insurance",
       name: "Dave Kaiser",
-      picture: C3,
+      picture: placeHolder,
       key: 2,
     },
     {
       title: "Shine-n-Show",
       name: "Don Patnoe",
-      picture: C3,
+      picture: placeHolder,
       key: 3,
     },
     {
-      title: "Year End Banquet Hotel",
+      title: `Year End
+      Banquet Hotel`,
       name: "Jon Cox",
-      picture: C3,
+      picture: placeHolder,
       key: 4,
     },
   ],
@@ -209,6 +174,28 @@ const Strings = {
       location: "Bellingham, WA",
       url: "https://corvettesunlimitedbham.com/",
       key: 5,
+    },
+  ],
+  importantDocuments: [
+    {
+      label: "Membership",
+      url: "http://nwacconline.com/membership.html", // Refactor into a new, organized page
+      key: 0,
+    },
+    {
+      label: "Constitution",
+      url: "http://nwacconline.com/constitution.html",
+      key: 1,
+    },
+    {
+      label: "By-Laws",
+      url: "http://nwacconline.com/bylaws.html",
+      key: 2,
+    },
+    {
+      label: "Reimbursement Form",
+      url: "http://nwacconline.com/reimbursement_form.html",
+      key: 3,
     },
   ],
 };

@@ -35,6 +35,10 @@
     }
 }
 
+.Collapsible__contentOuter {
+    width: fit-content;
+}
+
 .Collapsible__trigger {
     display: flex;
     padding-top: 8px;

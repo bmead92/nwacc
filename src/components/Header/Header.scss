@@ -1,0 +1,12 @@
+// global style import
+@import '../../App.scss';
+
+.headerContainer {
+    width: 100vw;
+    text-align: center;
+    
+}
+.headerText {
+    color: $globalFontColor;
+    text-shadow: $globalTextShadow;
+}

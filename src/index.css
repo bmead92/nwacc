@@ -11,3 +11,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+* {
+  box-sizing: border-box;
+}
+
+.background-image {
+  height: 100vh;
+  max-width: calc(100vw - 16px);
+  overflow: hidden;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('../src/assets/images/NWACC/background.png');
+  opacity: 0.9;
+}

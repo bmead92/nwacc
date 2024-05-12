@@ -1,0 +1,44 @@
+@import '../../App.scss';
+
+.aboutUsContainer {
+    display: flex;
+    color: $globalFontColor;
+    text-shadow: $globalTextShadow;
+    padding: 8px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.officersContainer {
+    align-items: center;
+    max-width: 50vw;
+    padding-left: 25vw;
+}
+
+.committeesContainer {
+    align-items: center;
+    max-width: 50vw;
+    padding-left: 25vw;
+}
+
+.officersHeader {
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.officer {
+    font-weight: normal;
+}
+
+.committee {
+    font-weight: normal;
+}
+
+.committeesHeader {
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.peopleImage {
+    height: 100px;
+    width: 100px;
+}

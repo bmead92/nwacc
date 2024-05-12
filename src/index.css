@@ -19,7 +19,6 @@ code {
 .background-image {
   height: 100vh;
   max-width: calc(100vw - 16px);
-  overflow: hidden;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

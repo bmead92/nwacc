@@ -8,8 +8,8 @@ const NavigationTabs = () => {
     <div className="navigationTabsContainer">
       {Strings.pages.map((page) => {
         return (
-          <div className="navigationTab">
-            <Link className="navigationLink" to={page.path} key={page.key}>
+          <div className="navigationTab" key={page.key}>
+            <Link className="navigationLink" to={page.path}>
               {page.name}
             </Link>
           </div>

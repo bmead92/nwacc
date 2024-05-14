@@ -9,7 +9,7 @@ const Documents = () => {
         <h2 className="documentsHeader">Documents</h2>
         {Strings.autocross.documents.map((doc) => {
           return (
-            <div className="linkContainer">
+            <div className="linkContainer" key={doc.key}>
               <Link className="autocrossLinks" to={doc.url}>
                 {doc.name}
               </Link>

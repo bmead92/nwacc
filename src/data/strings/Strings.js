@@ -138,12 +138,12 @@ const Strings = {
     {
       label: "By-Laws",
       url: "http://nwacconline.com/bylaws.html",
-      key: 2,
+      key: 1,
     },
     {
       label: "Reimbursement Form",
       url: "http://nwacconline.com/reimbursement_form.html",
-      key: 3,
+      key: 2,
     },
   ],
   autocross: {
@@ -221,9 +221,9 @@ const Strings = {
     { name: "Home", path: "/", key: 0 },
     { name: "Autocross", path: "/autocross", key: 1 },
     { name: "Membership", path: "/membership", key: 2 },
-    { name: "Show-n-Shine", path: "/shownshine", key: 2 },
-    // { name: "External Links", path: "/externallinks", key: 2 },
-    // { name: "In Memoriam", path: "/inmemoriam", key: 2 },
+    { name: "Show-n-Shine", path: "/shownshine", key: 3 },
+    // { name: "External Links", path: "/externallinks", key: 4 },
+    // { name: "In Memoriam", path: "/inmemoriam", key: 5 },
   ],
   scoreKeeper: {
     label: "Scorekeeper Registration",

@@ -16,12 +16,28 @@ code {
   box-sizing: border-box;
 }
 
-.background-image {
+.backgroundImage {
   height: 100vh;
   max-width: calc(100vw - 16px);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url('../src/assets/images/NWACC/background.png');
   opacity: 0.9;
 }
+
+.homepage {
+  background-image: url('../src/assets/images/NWACC/homepage.png');
+}
+
+.autocross {
+  background-image: url('../src/assets/images/NWACC/autocross.png');
+}
+
+.membership {
+  background-image: url('../src/assets/images/NWACC/membership.png');
+}
+
+.show-n-shine {
+  background-image: url('../src/assets/images/NWACC/show-n-shine.png');
+}
+

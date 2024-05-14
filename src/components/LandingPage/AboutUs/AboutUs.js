@@ -1,5 +1,5 @@
 import "./AboutUs.scss";
-import Strings from "../../data/strings/Strings";
+import Strings from "../../../data/strings/Strings";
 
 const AboutUs = () => {
   return (

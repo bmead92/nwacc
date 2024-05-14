@@ -14,22 +14,7 @@ const Strings = {
         `,
   },
   links: {
-    mainPage: [
-      {
-        label: "About Us",
-        url: "http://nwacconline.com/about_us.html",
-        key: 0,
-      },
-      {
-        label: "Autocross",
-        url: "http://nwacconline.com/autocross.html",
-        key: 1,
-      },
-      {
-        label: "Show-n-Shine",
-        url: "http://nwacconline.com/shownshine.html",
-        key: 2,
-      },
+    toCreate: [
       // {
       //   label: "Year End Banquet",
       //   url: "http://nwacconline.com/yearendbanquet.html",
@@ -40,44 +25,12 @@ const Strings = {
       //   url: "http://nwacconline.com/other_corvette_events.html",
       //   key: 4,
       // },
-      // {
-      //   label: "NWACC Meetings",
-      //   url: "http://nwacconline.com/nwacc%20meetings.html",
-      //   key: 5,
-      // },
-      // {
-      //   label: "Links",
-      //   url: "http://nwacconline.com/links.html", TODO: REWORK INTO ITS OWN PAGE
-      //   key: 6,
-      // },
-      // {
-      // {
-      //   label: "In Memoriam",
-      //   url: "http://nwacconline.com/In%20Memoriam.html",
-      //   key: 8,
-      // },
       {
         label: "Facebook",
         url: "https://www.facebook.com/groups/207888470635/?fref=ts",
         key: 9,
       },
     ],
-    aboutUs: [
-      {
-        label: "Home",
-        url: "http://nwacconline.com/index.html",
-        key: 0,
-      },
-      {
-        label: "NWACC Meetings",
-        url: "http://nwacconline.com/nwacc%20meetings.html", // TODO: refactor dupe
-        key: 5,
-      },
-    ],
-  },
-  registration: {
-    label: "Online registration for NWACC AutoCross only",
-    url: "http://nwacconline.com/Tech%20Inspect%20-%20Register.html",
   },
   officers: [
     {
@@ -178,14 +131,9 @@ const Strings = {
   ],
   importantDocuments: [
     {
-      label: "Membership",
-      url: "http://nwacconline.com/membership.html", // Refactor into a new, organized page
-      key: 0,
-    },
-    {
       label: "Constitution",
       url: "http://nwacconline.com/constitution.html",
-      key: 1,
+      key: 0,
     },
     {
       label: "By-Laws",
@@ -198,6 +146,90 @@ const Strings = {
       key: 3,
     },
   ],
+  autocross: {
+    pageStrings: {
+      header: "Autocross",
+      eventsHeader: "Autocross Events",
+    },
+    eventsTable: {},
+    eventsScoringTables: {},
+    historicalScoringTables: [],
+    documents: [
+      {
+        name: "Competition Code",
+        url: "http://nwacconline.com/2020PDFs/2020%20NWACC%20Competition%20Code.pdf",
+        key: 0,
+      },
+      {
+        name: "Speed Event Guidelines",
+        url: "http://nwacconline.com/2020PDFs/2020%20NWACC%20%20Speed%20Event%20Policies%20and%20Procedures.pdf",
+        key: 1,
+      },
+    ],
+  },
+  membership: {
+    pageStrings: {
+      header: "Membership",
+      subHeader: "What is the Northwest Association of Corvette Clubs (NWACC)?",
+    },
+    documents: [
+      {
+        name: "Northwest Association of Corvette Clubs (NWACC)",
+        url: "http://nwacconline.com/2021PDFs/2021%2005%2010%20%20NWACC%20Just%20what%20is%20it.pdf",
+        key: 0,
+      },
+      {
+        name: "Advantages or being an NWACC Club Member",
+        url: "http://nwacconline.com/2021PDFs/2021%2005%2010%20Insance%20Advantage%20of%20club%20membership.pdf",
+        key: 1,
+      },
+      {
+        name: "Membership Cost",
+        url: "http://nwacconline.com/2021PDFs/2021%2005%2010%20The%20Cost%20to%20Belong.pdf",
+        key: 2,
+      },
+    ],
+  },
+  showNShine: {
+    pageStrings: {
+      header: "Show-n-Shine",
+      eventsHeader: "Shine-n-Shine Events",
+      participants: "Participants",
+      judges: "Judges",
+    },
+    documents: [
+      {
+        name: "Competition Code",
+        url: "http://nwacconline.com/2020PDFs/2020%20NWACC%20Competition%20Code.pdf",
+        key: 0,
+      },
+    ],
+    adminDocuments: [
+      {
+        name: "NWACC Shine-n-Show Program and Policies",
+        url: "http://nwacconline.com/2020PDFs/NWACC%20Corvette%20Shine-n-Show%20Program%20Policies%20and%20Procedures%20_%202020.pdf",
+        key: 0,
+      },
+      {
+        name: "NWACC Shine-n-Show Judging Sheet",
+        url: "http://nwacconline.com/2020PDFs/NWACC%20%20Shine%20and%20Show%20Judging%20Form%20-%202020.pdf",
+        key: 1,
+      },
+    ],
+  },
+  pages: [
+    { name: "Home", path: "/", key: 0 },
+    { name: "Autocross", path: "/autocross", key: 1 },
+    { name: "Membership", path: "/membership", key: 2 },
+    { name: "Show-n-Shine", path: "/shownshine", key: 2 },
+    // { name: "External Links", path: "/externallinks", key: 2 },
+    // { name: "In Memoriam", path: "/inmemoriam", key: 2 },
+  ],
+  scoreKeeper: {
+    label: "Scorekeeper Registration",
+    image: "",
+    url: "https://scorekeeper.wwscc.org/register/nwacc2020/events",
+  },
 };
 
 export default Strings;

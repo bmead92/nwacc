@@ -1,0 +1,29 @@
+@import '../../../App.scss';
+
+.mainContainer {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+
+.documentsContainer, .eventsContainer {
+    padding: 8px;
+    width: 40vw;
+    padding: 10vw;
+    
+}
+
+.documentsHeader, .eventsHeader {
+    font-size: xx-large;
+    color: $globalFontColor;
+    text-shadow: $globalTextShadow;
+}
+
+.linkContainer {
+    text-wrap: nowrap;
+    padding-bottom: 16px;
+}
+
+.autocrossLinks {
+    @include globalLinks();
+}

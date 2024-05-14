@@ -1,5 +1,5 @@
 import "./Introduction.scss";
-import Strings from "../../data/strings/Strings";
+import Strings from "../../../data/strings/Strings";
 
 const Introduction = () => {
   return (

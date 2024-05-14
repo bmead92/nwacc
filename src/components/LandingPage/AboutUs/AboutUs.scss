@@ -9,6 +9,7 @@
 
 .peopleHeader {
     text-align: center;
+    padding-bottom: 16px;
 }
 
 .peopleContainer {
@@ -50,4 +51,66 @@
 .peopleImage {
     height: 100px;
     width: 100px;
+}
+
+// Media queries
+
+// Mobile L
+@media (min-width: 375px) and (max-width: 425px) {
+    .peopleImage {
+        height: 100px;
+        width: 100px;
+    }
+    .officer, .committee {
+        width: 100%;
+    }
+    .officersContainer, .committeesContainer {
+        padding-left: 4vw;
+    }
+    .officersHeader, .committeesHeader {
+        font-size: medium;
+    }
+    .peopleHeader {
+        font-size: large;
+    }
+}
+
+// Mobile M
+@media (min-width: 375px) and (max-width: 425px) {
+    .peopleImage {
+        height: 100px;
+        width: 100px;
+    }
+    .officer, .committee {
+        width: 100%;
+    }
+    .officersContainer, .committeesContainer {
+        padding-left: 4vw;
+    }
+    .officersHeader, .committeesHeader {
+        font-size: medium;
+    }
+    .peopleHeader {
+        font-size: large;
+    }
+}
+
+// Mobile S
+@media (min-width: 320px) and (max-width: 374px) {
+    .peopleImage {
+        height: 100px;
+        width: 100px;
+    }
+    .officer, .committee {
+        width: 100%;
+    }
+    .officersContainer, .committeesContainer {
+        padding-left: 4vw;
+    }
+    .officersHeader, .committeesHeader {
+        font-size: medium;
+    }
+    .peopleHeader {
+        font-size: large;
+    }
 }

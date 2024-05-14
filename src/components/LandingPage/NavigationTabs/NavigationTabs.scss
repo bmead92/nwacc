@@ -53,3 +53,49 @@
         }
     }
 }
+
+// Media queries
+
+// Tablet
+@media (min-width: 375px) and (max-width: 424px) {
+    .navigationLink, .Collapsible {
+        font-size: 12px;
+    }
+    .navigationTabsContainer {
+        width: fit-content;
+        flex-flow: wrap;
+    }
+}
+
+// Mobile L
+@media (min-width: 425px) and (max-width: 767px) {
+    .navigationLink, .Collapsible {
+        font-size: 18px;
+    }
+    .navigationTabsContainer {
+        width: fit-content;
+        flex-flow: wrap;
+    }
+}
+
+// Mobile M
+@media (min-width: 375px) and (max-width: 424px) {
+    .navigationLink, .Collapsible {
+        font-size: 14px;
+    }
+    .navigationTabsContainer {
+        width: fit-content;
+        flex-flow: wrap;
+    }
+}
+
+// Mobile S
+@media (min-width: 320px) and (max-width: 374px) {
+    .navigationLink, .Collapsible {
+        font-size: 12px;
+    }
+    .navigationTabsContainer {
+        width: fit-content;
+        flex-flow: wrap;
+    }
+}

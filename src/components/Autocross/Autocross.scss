@@ -1,0 +1,115 @@
+@import '../../App.scss';
+
+.mainContainer {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+
+.documentsContainer, .eventsContainer {
+    padding: 8px;
+    width: 40vw;
+    padding: 10vw;
+    
+}
+
+.documentsHeader, .eventsHeader {
+    font-size: xx-large;
+    color: $globalFontColor;
+    text-shadow: $globalTextShadow;
+    text-align: center;
+}
+
+.linkContainer {
+    text-wrap: nowrap;
+    padding-bottom: 16px;
+}
+
+.autocrossLinks {
+    @include globalLinks();
+}
+
+p {
+    text-align: center;
+    color: $globalFontColor;
+    text-shadow: $globalTextShadow;
+}
+
+// Media queries
+
+// Tablet
+@media (min-width: 768px) and (max-width: 1023px) {
+    .documentsContainer, .eventsContainer {
+        padding: 8px;
+        width: 50vw;
+        padding: 2vw;
+        
+    }
+    .documentsHeader, .eventsHeader {
+        font-size: large;
+    }
+    .autocrossLinks {
+        font-size: small;
+    }
+    p {
+        font-size: medium;
+    }
+}
+
+// Mobile L
+@media (min-width: 425px) and (max-width: 767px) {
+    .documentsContainer, .eventsContainer {
+        padding: 8px;
+        width: 50vw;
+        padding: 2vw;
+        
+    }
+    .documentsHeader, .eventsHeader {
+        font-size: large;
+    }
+    .autocrossLinks {
+        font-size: small;
+    }
+    p {
+        font-size: medium;
+    }
+}
+
+// Mobile M
+@media (min-width: 375px) and (max-width: 424px) {
+    .documentsContainer, .eventsContainer {
+        padding: 8px;
+        width: 50vw;
+        padding: 2vw;
+        
+    }
+    .documentsHeader, .eventsHeader {
+        font-size: medium;
+    }
+    .autocrossLinks {
+        font-size: x-small;
+    }
+    p {
+        font-size: small;
+    }
+}
+
+// Mobile S
+@media (min-width: 320px) and (max-width: 374px) {
+    .documentsContainer, .eventsContainer {
+        padding: 8px;
+        width: 50vw;
+        padding: 2vw;
+        
+    }
+    .documentsHeader, .eventsHeader {
+        font-size: medium;
+    }
+    .autocrossLinks {
+        text-wrap: wrap;
+        font-size: x-small;
+    }
+    p {
+        font-size: small;
+    }
+}

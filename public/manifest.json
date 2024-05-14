@@ -1,7 +1,7 @@
 {
   "short_name": "NWACC",
-  "name": "Northwest Associattion of Corvette Clubs",
-  "start_url": ".",
+  "name": "Northwest Association of Corvette Clubs",
+  "start_url": "nwacconline.com",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"

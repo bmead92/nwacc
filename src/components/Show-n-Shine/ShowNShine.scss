@@ -1,0 +1,25 @@
+@import '../../App.scss';
+
+.mainContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.showNShineContainer {
+    padding: 8px;
+    width: 50vw;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: $globalFontColor;
+    text-shadow: $globalTextShadow;
+    padding-left: 12vw;
+}
+
+.showLinksContainer {
+    padding-bottom: 8px;
+    text-wrap: nowrap;
+}
+
+.showLinks {
+    @include globalLinks();
+}

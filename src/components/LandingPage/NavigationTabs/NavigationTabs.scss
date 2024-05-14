@@ -1,27 +1,20 @@
 // global styles
-@import '../../App.scss';
+@import '../../../App.scss';
 
-.mainPageNavigationTabsContainer {
+.navigationTabsContainer {
     display: flex;
     width: 100vw;
     flex-direction: row;
     justify-content: center;
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
-.mainPageNavigationTab {
+.navigationTab {
     padding: 8px;
 }
 
-.mainPageNavigationLink {
-    font-size: large;
-    text-decoration: none;
-    text-shadow: $globalTextShadow;
-    &:hover {
-        opacity: 0.5;
-    }
-    &:visited {
-        color: $globalFontColor;
-    }
+.navigationLink {
+    @include globalLinks();
 }
 
 .Collapsible {

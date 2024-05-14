@@ -1,0 +1,29 @@
+@import '../../App.scss';
+
+.mainContainer {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+
+.membershipContainer {
+    padding: 8px;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.membershipHeader {
+    text-align: center;
+    font-size: xx-large;
+    color: $globalFontColor;
+    text-shadow: $globalTextShadow;
+}
+
+.membershipLinksContainer {
+    padding-bottom: 8px;
+    text-align: center;
+}
+
+.membershipLinks {
+    @include globalLinks();
+}

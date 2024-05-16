@@ -17,8 +17,8 @@ code {
 }
 
 .backgroundImage {
-  height: 100vh;
-  max-width: calc(100vw - 16px);
+  min-height: 100vh;
+  width: 100vw;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -31,7 +31,6 @@ code {
 
 .autocross {
   background-image: url('../src/assets/images/NWACC/autocross.png');
-  background-size: cover;
 }
 
 .membership {
@@ -41,4 +40,5 @@ code {
 .show-n-shine {
   background-image: url('../src/assets/images/NWACC/show-n-shine.png');
 }
+
 

@@ -11,7 +11,7 @@ const Membership = () => {
         </h2>
         {Strings.membership.documents.map((doc) => {
           return (
-            <div className="membershipLinksContainer">
+            <div className="membershipLinksContainer" key={doc.index}>
               <Link className="membershipLinks" to={doc.url}>
                 {doc.name}
               </Link>

@@ -17,12 +17,12 @@ const Autocross = () => {
         {Strings.autocross.documents.map((doc) => {
           return (
             <>
-              <div className="linkContainer" key={doc.key}>
+              <div className="linkContainer" key={doc.index}>
                 <Document file={doc.url}>
                   <Page />
                 </Document>
               </div>
-              <div className="linkContainer" key={doc.key}>
+              <div className="linkContainer" key={doc.index}>
                 <Link className="autocrossLinks" to={doc.url}>
                   Click here to open PDF in a new window
                 </Link>

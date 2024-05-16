@@ -37,6 +37,63 @@ p {
 
 // Media queries
 
+// 4k+
+@media (min-width: 2560px) {
+    .documentsContainer, .eventsContainer {
+        padding: 8px;
+        width: 50vw;
+        padding: 2vw;
+        
+    }
+    .documentsHeader, .eventsHeader {
+        font-size: 48px;
+    }
+    .autocrossLinks {
+        font-size: 24px;;
+    }
+    p {
+        font-size: 24px;
+    }
+}
+
+// Laptop L
+@media (min-width: 1440px) and (max-width: 1559px) {
+    .documentsContainer, .eventsContainer {
+        padding: 8px;
+        width: 50vw;
+        padding: 2vw;
+        
+    }
+    .documentsHeader, .eventsHeader {
+        font-size: xx-large;
+    }
+    .autocrossLinks {
+        font-size: large;
+    }
+    p {
+        font-size: large;
+    }
+}
+
+// Laptop
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .documentsContainer, .eventsContainer {
+        padding: 8px;
+        width: 50vw;
+        padding: 2vw;
+        
+    }
+    .documentsHeader, .eventsHeader {
+        font-size: xx-large;
+    }
+    .autocrossLinks {
+        font-size: medium;
+    }
+    p {
+        font-size: medium;
+    }
+}
+
 // Tablet
 @media (min-width: 768px) and (max-width: 1023px) {
     .documentsContainer, .eventsContainer {

@@ -11,7 +11,7 @@ const AboutUs = () => {
           <div className="officersInnerContainer">
             {Strings.officers.map((officer) => {
               return (
-                <h3 className="officer" key={officer.key}>
+                <h3 className="officer" key={officer.index}>
                   {officer.title}
                   <img
                     src={officer.picture}
@@ -29,7 +29,7 @@ const AboutUs = () => {
           <div className="commiteesInnerContainer">
             {Strings.committees.map((committee) => {
               return (
-                <h3 className="committee" key={committee.key}>
+                <h3 className="committee" key={committee.index}>
                   {committee.title}
                   <img
                     src={committee.picture}

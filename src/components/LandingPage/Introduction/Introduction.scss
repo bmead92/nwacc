@@ -13,3 +13,19 @@
     white-space: pre-line;
     color: $globalFontColor;
 }
+
+// Media queries
+
+// 4k+
+@media (min-width: 2560px) {
+    .introductionText {
+        font-size: 36px;
+    }
+}
+
+// Laptop L
+@media (min-width: 1440px) and (max-width: 2559px) {
+    .introductionText {
+        font-size: 24px;
+    }
+}

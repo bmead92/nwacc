@@ -20,6 +20,8 @@ function App() {
         <Route exact path="/shownshine" element={<ShowNShine />}></Route>
         {/* In Memoriam */}
         <Route></Route>
+        {/* Other External Links */}
+        <Route></Route>
       </Routes>
     </Router>
   );

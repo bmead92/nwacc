@@ -203,16 +203,16 @@ const Strings = {
     { name: "Membership", path: "/membership", index: 2 },
     { name: "Show-n-Shine", path: "/shownshine", index: 3 },
     // TODO: Create pages for external links and in memoriam
-    {
-      name: "External Links",
-      path: "http://nwacconline.com/links.html",
-      index: 4,
-    },
-    {
-      name: "In Memoriam",
-      path: "http://nwacconline.com/In%20Memoriam.html",
-      index: 5,
-    },
+    // {
+    //   name: "External Links",
+    //   path: "http://nwacconline.com/links.html",
+    //   index: 4,
+    // },
+    // {
+    //   name: "In Memoriam",
+    //   path: "http://nwacconline.com/In%20Memoriam.html",
+    //   index: 5,
+    // },
   ],
   scoreKeeper: {
     label: "Scorekeeper Registration",

@@ -21,6 +21,7 @@
 }
 
 .linkContainer {
+    text-align: center;
     text-wrap: nowrap;
     padding-bottom: 16px;
 }
@@ -49,7 +50,7 @@ p {
         font-size: 48px;
     }
     .autocrossLinks {
-        font-size: 24px;;
+        font-size: 24px;
     }
     p {
         font-size: 24px;
@@ -87,7 +88,7 @@ p {
         font-size: xx-large;
     }
     .autocrossLinks {
-        font-size: medium;
+        font-size: large;
     }
     p {
         font-size: medium;
@@ -106,7 +107,7 @@ p {
         font-size: large;
     }
     .autocrossLinks {
-        font-size: small;
+        font-size: medium;
     }
     p {
         font-size: medium;
@@ -125,7 +126,7 @@ p {
         font-size: large;
     }
     .autocrossLinks {
-        font-size: small;
+        font-size: medium;
     }
     p {
         font-size: medium;
@@ -144,7 +145,7 @@ p {
         font-size: medium;
     }
     .autocrossLinks {
-        font-size: x-small;
+        font-size: small;
     }
     p {
         font-size: small;
@@ -164,7 +165,7 @@ p {
     }
     .autocrossLinks {
         text-wrap: wrap;
-        font-size: x-small;
+        font-size: small;
     }
     p {
         font-size: small;

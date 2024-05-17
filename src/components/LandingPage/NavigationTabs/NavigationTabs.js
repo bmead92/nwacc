@@ -15,7 +15,11 @@ const NavigationTabs = () => {
             .filter((page) => leftSidePages.includes(page.name))
             .map((page) => {
               return (
-                <Link className="navigationLink" to={page.path}>
+                <Link
+                  className="navigationLink"
+                  to={page.path}
+                  key={page.index}
+                >
                   {page.name}
                 </Link>
               );
@@ -26,7 +30,11 @@ const NavigationTabs = () => {
             .filter((page) => rightSidePages.includes(page.name))
             .map((page) => {
               return (
-                <Link className="navigationLink" to={page.path}>
+                <Link
+                  className="navigationLink"
+                  to={page.path}
+                  key={page.index}
+                >
                   {page.name}
                 </Link>
               );

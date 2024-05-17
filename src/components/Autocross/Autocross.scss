@@ -21,11 +21,13 @@
 }
 
 .linkContainer {
+    text-align: center;
     text-wrap: nowrap;
     padding-bottom: 16px;
 }
 
 .autocrossLinks {
+    
     @include globalLinks();
 }
 

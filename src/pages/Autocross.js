@@ -1,9 +1,9 @@
 import React from "react";
-import Header from "../components/LandingPage/Header/Header";
+import NavigationTabs from "../components/shared/navigationTabs/NavigationTabs";
+import Header from "../components/shared/header/Header";
 import Strings from "../data/strings/Strings";
-import NavigationTabs from "../components/LandingPage/NavigationTabs/NavigationTabs";
-import Autocross from "../components/Autocross/Autocross";
-import "../components/LandingPage/NavigationTabs/NavigationTabs.scss";
+import Autocross from "../components/autocross/Autocross";
+import "../components/shared/navigationTabs/NavigationTabs.scss";
 import "../App.scss";
 
 const AutocrossPage = () => {

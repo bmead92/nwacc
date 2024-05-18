@@ -41,4 +41,12 @@ code {
   background-image: url('../src/assets/images/NWACC/show-n-shine.png');
 }
 
+.externalLinks {
+  background-image: url('../src/assets/images/NWACC/external.png');
+}
+
+.important {
+  background-image: url('../src/assets/images/NWACC/important.png');
+}
+
 

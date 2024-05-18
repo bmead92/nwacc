@@ -6,7 +6,6 @@
     width: 100vw;
     flex-direction: row;
     justify-content: center;
-    background-color: rgba(0, 0, 0, 0.6);
 }
 
 .leftSideContainer {
@@ -20,7 +19,7 @@
 .navigationLink {
     padding: 8px;
     @include globalLinks();
-    height:fit-content;
+    height: fit-content;
 }
 
 .dropDownContainer {
@@ -30,6 +29,8 @@
 .Collapsible {
     font-size: large;
     color: $globalFontColor;
+    padding-bottom: 8px;
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
 .Collapsible__contentInner {
@@ -42,7 +43,7 @@
     color: $globalFontColor;
 }
 
-.Collapsible__trigger, .mobileMenu, .importantDocuments, .memberClubs {
+.Collapsible__trigger {
     display: flex;
     padding-top: 8px;
     padding-left: 8px;

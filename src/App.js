@@ -4,6 +4,8 @@ import Homepage from "./pages/Homepage";
 import Autocross from "./pages/Autocross";
 import Membership from "./pages/Membership";
 import ShowNShine from "./pages/ShowNShine";
+import ExternalLinks from "./pages/Links";
+import ImportantDocuments from "./pages/ImportantDocumentsPage";
 
 function App() {
   return (
@@ -18,10 +20,14 @@ function App() {
         <Route exact path="/membership" element={<Membership />}></Route>
         {/* Show-n-Shine */}
         <Route exact path="/shownshine" element={<ShowNShine />}></Route>
-        {/* In Memoriam */}
-        <Route></Route>
-        {/* Other External Links */}
-        <Route></Route>
+        {/* External Links*/}
+        <Route exact path="/externallinks" element={<ExternalLinks />}></Route>
+        {/* External Links*/}
+        <Route
+          exact
+          path="/importantdocuments"
+          element={<ImportantDocuments />}
+        ></Route>
       </Routes>
     </Router>
   );

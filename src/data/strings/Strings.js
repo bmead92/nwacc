@@ -1,4 +1,4 @@
-import placeHolder from "../../assets/images/NWACC/placeholder-headshot.png";
+import placeHolder from "../../assets/images/placeholder-headshot.png";
 
 const Strings = {
   pdfDownload: "Download PDF",

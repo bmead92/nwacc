@@ -1,8 +1,8 @@
 import React from "react";
 import NavigationTabs from "../components/shared/navigationTabs/NavigationTabs";
 import Header from "../components/shared/header/Header";
-import Introduction from "../components/LandingPage/introduction/Introduction";
-import AboutUs from "../components/LandingPage/aboutUs/AboutUs";
+import Introduction from "../components/homepage/introduction/Introduction";
+import AboutUs from "../components/homepage/aboutUs/AboutUs";
 import Strings from "../data/strings/Strings";
 
 const Homepage = () => {

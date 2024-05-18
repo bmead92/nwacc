@@ -1,7 +1,7 @@
 import React from "react";
-import Header from "../components/LandingPage/Header/Header";
-import NavigationTabs from "../components/LandingPage/NavigationTabs/NavigationTabs";
-import Membership from "../components/Membership/Membership";
+import NavigationTabs from "../components/shared/navigationTabs/NavigationTabs";
+import Header from "../components/shared/header/Header";
+import Membership from "../components/membership/Membership";
 
 const MembershipPage = () => {
   return (

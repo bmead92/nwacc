@@ -1,0 +1,26 @@
+@import '../../App.scss';
+
+.linksPageContainer {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.linksHeader {
+    color: $globalFontColor;
+    text-shadow: $globalTextShadow;
+}
+
+.nwaccClubs, .otherWesternClubs, .canadianClubs, .internationalClubs, .forums, .registries, .organizations, .magazines, .other {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 8px;
+}
+
+.corvetteLinks {
+    padding-bottom: 8px;
+    @include globalLinks();
+}

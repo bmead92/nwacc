@@ -1,0 +1,81 @@
+// global styles
+@import '../../../App.scss';
+
+.navigationTabsContainer {
+    display: flex;
+    width: 100vw;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.navigationLink {
+    font-size: 16px;
+    padding: 8px;
+    @include globalLinks();
+    height: fit-content;
+    text-align: center;
+}
+
+.Collapsible {
+    display: flex;
+    flex-direction: column;
+    font-size: large;
+    color: $globalFontColor;
+    padding-bottom: 8px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.Collapsible__contentInner {
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
+
+.Collapsible__contentOuter {
+    color: $globalFontColor;
+}
+
+.Collapsible__trigger {
+    display: flex;
+    flex-direction: column;
+    &:hover {
+        opacity: 0.5; 
+    }
+    &:after {
+        font-family: 'FontAwesome';
+        content: '\f0c9';
+        padding-top: 4px;
+        padding-left: 8px;
+        padding-bottom: 8px;
+        display: block;
+        font-size: 1em;
+    }
+}
+
+// Media queries
+
+// 4k+
+@media (min-width: 2560px) {
+    .navigationLink, .Collapsible {
+        font-size: 20px;
+    }
+}
+
+// Shared non-mobile
+@media (min-width: 768px) {
+    .Collapsible__trigger {
+        &:after {
+            font-size: 1.25em;
+        }
+    }
+}
+
+// Shared Mobile
+@media (min-width: 320px) and (max-width: 767px) {
+    .navigationTabsContainer {
+        flex-direction: column;
+    }
+    .navigationLink, .Collapsible {
+        font-size: 16px;
+    }
+}

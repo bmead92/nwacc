@@ -1,7 +1,7 @@
 import React from "react";
-import Header from "../components/LandingPage/Header/Header";
-import NavigationTabs from "../components/LandingPage/NavigationTabs/NavigationTabs";
-import ShowNShine from "../components/Show-n-Shine/ShowNShine";
+import NavigationTabs from "../components/shared/navigationTabs/NavigationTabs";
+import Header from "../components/shared/header/Header";
+import ShowNShine from "../components/show-n-shine/ShowNShine";
 
 const ShowNShinePage = () => {
   return (

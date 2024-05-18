@@ -36,7 +36,19 @@ p {
     text-shadow: $globalTextShadow;
 }
 
+.pdfDownload {
+    display: block;
+    @include globalLinks();
+}
+
 // Media queries
+
+// Shared mobile
+@media (min-width: 320px) and (max-width: 767px) {
+    .pdfDownload {
+        font-size: 12px;
+    }
+}
 
 // 4k+
 @media (min-width: 2560px) {

@@ -8,25 +8,17 @@
     justify-content: center;
 }
 
-.leftSideContainer {
-    display: flex;
-}
-
-.rightSideContainer {
-    display: flex;
-}
-
 .navigationLink {
+    font-size: 16px;
     padding: 8px;
     @include globalLinks();
     height: fit-content;
-}
-
-.dropDownContainer {
-    display: flex;
+    text-align: center;
 }
 
 .Collapsible {
+    display: flex;
+    flex-direction: column;
     font-size: large;
     color: $globalFontColor;
     padding-bottom: 8px;
@@ -45,8 +37,7 @@
 
 .Collapsible__trigger {
     display: flex;
-    padding-top: 8px;
-    padding-left: 8px;
+    flex-direction: column;
     &:hover {
         opacity: 0.5; 
     }
@@ -55,6 +46,7 @@
         content: '\f0c9';
         padding-top: 4px;
         padding-left: 8px;
+        padding-bottom: 8px;
         display: block;
         font-size: 1em;
     }
@@ -69,40 +61,12 @@
     }
 }
 
-// Laptop L
-@media (min-width: 1440px) and (max-width: 2559px) {
-    .navigationTabsContainer {
-        &:before {
-            display: none;
+// Shared non-mobile
+@media (min-width: 768px) {
+    .Collapsible__trigger {
+        &:after {
+            font-size: 1.25em;
         }
-    }
-    .navigationLink, .Collapsible {
-        font-size: 16px
-    }
-}
-
-// Laptop 
-@media (min-width: 1024px) and (max-width: 1439px) {
-    .navigationTabsContainer {
-        &:before {
-            display: none;
-        }
-    }
-    .navigationLink, .Collapsible {
-        font-size: 14px
-    }
-
-}
-
-// Tablet
-@media (min-width: 768px) and (max-width: 1023px) {
-    .navigationTabsContainer {
-        &:before {
-            display: none;
-        }
-    }
-    .navigationLink, .Collapsible {
-        font-size: 12px;
     }
 }
 
@@ -112,10 +76,6 @@
         flex-direction: column;
     }
     .navigationLink, .Collapsible {
-        display: block;
         font-size: 16px;
-    }
-    .leftSideContainer, .rightSideContainer, .dropDownContainer {
-        display: block;
     }
 }

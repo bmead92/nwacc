@@ -1,6 +1,7 @@
 import placeHolder from "../../assets/images/NWACC/placeholder-headshot.png";
 
 const Strings = {
+  pdfDownload: "Download PDF",
   people: "Notable People",
   header: {
     label: `header`,

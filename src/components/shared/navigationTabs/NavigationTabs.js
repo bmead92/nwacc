@@ -7,23 +7,20 @@ const NavigationTabs = () => {
   return (
     <Collapsible triggerClassName="mobileMenu">
       <div className="navigationTabsContainer">
-        <div className="leftSideContainer">
-          {Strings.pages.map((page) => {
-            return (
-              <Link className="navigationLink" to={page.path} key={page.index}>
-                {page.name}
-              </Link>
-            );
-          })}
-        </div>
-        {/* Scorekeeper Registration Link */}
+        {Strings.pages.map((page) => {
+          return (
+            <Link className="navigationLink" to={page.path} key={page.index}>
+              {page.name}
+            </Link>
+          );
+        })}
 
+        {/* Scorekeeper Registration Link */}
         <Link className="navigationLink" to={Strings.scoreKeeper.url}>
           {Strings.scoreKeeper.label}
         </Link>
 
         {/* Facebook Link */}
-
         <Link className="navigationLink" to={Strings.facebook.url}>
           {Strings.facebook.label}
         </Link>

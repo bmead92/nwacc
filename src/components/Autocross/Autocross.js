@@ -13,6 +13,10 @@ const Autocross = () => {
               <Link to={doc.url} className="autocrossLinks">
                 {doc.name}
               </Link>
+              {/* TODO: Enable PDF downloads on mobile */}
+              {/* <a className="pdfDownload" href={doc.url} download={doc.name}>
+                {Strings.pdfDownload}
+              </a> */}
             </div>
           );
         })}

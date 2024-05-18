@@ -3,6 +3,8 @@ import placeHolder from "../../assets/images/NWACC/placeholder-headshot.png";
 const Strings = {
   pdfDownload: "Download PDF",
   people: "Notable People",
+  officersString: "Officers",
+  committeesString: "Committees",
   header: {
     label: `header`,
     content: `Northwest Association of Corvette Clubs`,
@@ -92,7 +94,9 @@ const Strings = {
   autocross: {
     pageStrings: {
       header: "Autocross",
+      documentsHeader: "Documents",
       eventsHeader: "Autocross Events",
+      eventsText: "Future events will be represented here.",
     },
     eventsTable: {},
     eventsScoringTables: {},

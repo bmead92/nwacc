@@ -7,7 +7,7 @@ const AboutUs = () => {
       <div className="peopleHeader">{Strings.people}</div>
       <div className="peopleContainer">
         <div className="officersContainer">
-          <div className="officersHeader">Officers</div>
+          <div className="officersHeader">{Strings.officersString}</div>
           <div className="officersInnerContainer">
             {Strings.officers.map((officer) => {
               return (
@@ -25,7 +25,7 @@ const AboutUs = () => {
           </div>
         </div>
         <div className="committeesContainer">
-          <div className="committeesHeader">Committees</div>
+          <div className="committeesHeader">{Strings.committeesString}</div>
           <div className="commiteesInnerContainer">
             {Strings.committees.map((committee) => {
               return (

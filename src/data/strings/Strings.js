@@ -1,4 +1,8 @@
 import placeHolder from "../../assets/images/placeholder-headshot.png";
+import membershipList from "../../assets/files/NWACCClubMembership.pdf";
+import costToBelong from "../../assets/files/TheCostToBelong_20240519.pdf";
+import justWhatIsIt from "../../assets/files/JustWhatIsIt_20240519.pdf";
+import advantageOfClubMembership from "../../assets/files/AdvantageOfClubMembership_20240519.pdf";
 
 const Strings = {
   pdfDownload: "Download PDF",
@@ -50,7 +54,7 @@ const Strings = {
     },
     {
       title: "Competition",
-      name: "Chunk Hulka",
+      name: "Chuck Hulka",
       picture: placeHolder,
       index: 1,
     },
@@ -122,18 +126,23 @@ const Strings = {
     documents: [
       {
         name: "Northwest Association of Corvette Clubs (NWACC)",
-        url: "http://nwacconline.com/2021PDFs/2021%2005%2010%20%20NWACC%20Just%20what%20is%20it.pdf",
+        url: justWhatIsIt,
         index: 0,
       },
       {
-        name: "Advantages or being an NWACC Club Member",
-        url: "http://nwacconline.com/2021PDFs/2021%2005%2010%20Insance%20Advantage%20of%20club%20membership.pdf",
+        name: "Advantages of being an NWACC Club Member",
+        url: advantageOfClubMembership,
         index: 1,
       },
       {
         name: "Membership Cost",
-        url: "http://nwacconline.com/2021PDFs/2021%2005%2010%20The%20Cost%20to%20Belong.pdf",
+        url: costToBelong,
         index: 2,
+      },
+      {
+        name: "Membership List",
+        url: membershipList,
+        index: 3,
       },
     ],
   },

@@ -2,15 +2,8 @@
 
 .mainContainer {
     display: flex;
-    flex-flow: row;
+    flex-direction: column;
     justify-content: center;
-}
-
-.documentsContainer, .eventsContainer {
-    padding: 8px;
-    width: 40vw;
-    padding: 10vw;
-    
 }
 
 .documentsHeader, .eventsHeader {
@@ -20,14 +13,22 @@
     text-align: center;
 }
 
-.linkContainer {
+.autocrossDocs {
+    color: $globalFontColor;
+    text-shadow: $globalTextShadow;
     text-align: center;
-    text-wrap: nowrap;
-    padding-bottom: 16px;
 }
 
 .autocrossLinks {
     @include globalLinks();
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &:after {
+        padding-left: 2px;
+        font-family: 'FontAwesome';
+        content: ' \f019';
+    }
 }
 
 p {

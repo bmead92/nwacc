@@ -6,16 +6,13 @@ const Membership = () => {
   return (
     <div className="mainContainer">
       <div className="membershipContainer">
-        <h2 className="membershipHeader">
-          {Strings.membership.pageStrings.subHeader}
-        </h2>
         {Strings.membership.documents.map((doc) => {
           return (
             <>
               <h2 className="membershipLinksContainer">{doc.name}</h2>
               <PdfRenderer url={doc.url} />
               <a className="membershipLinks" href={doc.url} download>
-                Download PDF
+                {Strings.pdfDownload}
               </a>
             </>
           );

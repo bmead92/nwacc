@@ -20,10 +20,19 @@
 }
 
 .membershipLinksContainer {
-    padding-bottom: 8px;
+    color: $globalFontColor;
+    text-shadow: $globalTextShadow;
     text-align: center;
 }
 
 .membershipLinks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     @include globalLinks();
+    &:after {
+        padding-left: 2px;
+        font-family: 'FontAwesome';
+        content: ' \f019';
+    }
 }

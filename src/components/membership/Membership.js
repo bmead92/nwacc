@@ -1,6 +1,6 @@
 import "./Membership.scss";
 import Strings from "../../data/strings/Strings";
-import { NavLink as Link } from "react-router-dom";
+import PdfRenderer from "../shared/pdf/PdfRenderer";
 
 const Membership = () => {
   return (
@@ -11,11 +11,13 @@ const Membership = () => {
         </h2>
         {Strings.membership.documents.map((doc) => {
           return (
-            <div className="membershipLinksContainer" key={doc.index}>
-              <Link className="membershipLinks" to={doc.url}>
-                {doc.name}
-              </Link>
-            </div>
+            <>
+              <h2 className="membershipLinksContainer">{doc.name}</h2>
+              <PdfRenderer url={doc.url} />
+              <a className="membershipLinks" href={doc.url} download>
+                Download PDF
+              </a>
+            </>
           );
         })}
       </div>

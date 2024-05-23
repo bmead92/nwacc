@@ -58,10 +58,6 @@
 
 // 4k+
 @media (min-width: 2560px) {
-    .peopleImage {
-        height: 200px;
-        width: 200px;
-    }
     .officersContainer, .committeesContainer {
         padding-left: 4vw;
     }
@@ -72,7 +68,6 @@
 
 // Laptop L
 @media (min-width: 1440px) and (max-width: 2559px) {
-
     .officersContainer, .committeesContainer {
         padding-left: 4vw;
     }
@@ -94,12 +89,23 @@
 
 // Tablet
 @media (min-width: 768px) and (max-width: 1023px) {
- 
+    .peopleImage {
+        height: 100px;
+        width: 100px;
+    }
     .officersContainer, .committeesContainer {
         padding-left: 4vw;
     }
     .officer, .committee {
         white-space: unset;
+    }
+}
+
+// Shared mobile
+@media (min-width: 320px) and (max-width: 767px) {
+    .peopleImage {
+        height: 100px;
+        width: 100px;
     }
 }
 
@@ -122,7 +128,6 @@
 
 // Mobile M
 @media (min-width: 375px) and (max-width: 424px) {
- 
     .officer, .committee {
         width: 100%;
     }
@@ -139,7 +144,6 @@
 
 // Mobile S
 @media (min-width: 320px) and (max-width: 374px) {
-  
     .officer, .committee {
         width: 100%;
     }

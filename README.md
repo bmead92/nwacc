@@ -2,7 +2,7 @@
 
 ## Updating and modernizing a webpage
 
-I re-built this website using React and SASS with minimal external dependencies in order to createa lightweight, reliable, and modern website for this client.
+I re-built this website using React and SASS with minimal external dependencies in order to create a lightweight, reliable, and modern website for this client.
 
 I added media queries to support mobile viewing, additionally, I added support for viewing and downloading PDFs.
 

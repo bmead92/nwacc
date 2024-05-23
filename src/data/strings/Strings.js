@@ -10,6 +10,7 @@ import judgesSheet from "../../assets/files/JudgesBriefingSheet.pdf";
 import byLaws from "../../assets/files/ByLaws.pdf";
 import constitution from "../../assets/files/Constitution.pdf";
 import contactUs from "../../assets/files/ContactUs.pdf";
+import dave from "../../assets/images/DaveKaiser.jpg";
 
 const Strings = {
   pdfDownload: "Download PDF",
@@ -48,7 +49,7 @@ const Strings = {
     {
       title: "Treasurer",
       name: "Dave Kaiser",
-      picture: placeHolder,
+      picture: dave,
       index: 3,
     },
   ],
@@ -74,7 +75,7 @@ const Strings = {
     {
       title: "Insurance Chair",
       name: "Dave Kaiser",
-      picture: placeHolder,
+      picture: dave,
       index: 3,
     },
   ],

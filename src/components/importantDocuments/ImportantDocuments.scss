@@ -14,7 +14,20 @@
     text-shadow: $globalTextShadow;
 }
 
+.importantLinksContainer {
+    color: $globalFontColor;
+    text-shadow: $globalTextShadow;
+    text-align: center;
+}
+
 .importantLinks {
-    padding-bottom: 8px;
     @include globalLinks();
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &:after {
+        padding-left: 2px;
+        font-family: 'FontAwesome';
+        content: ' \f019';
+    }
 }

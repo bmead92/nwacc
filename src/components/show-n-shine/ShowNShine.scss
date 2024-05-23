@@ -2,17 +2,13 @@
 
 .mainContainer {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
 }
 
 .showNShineContainer {
     padding: 8px;
-    width: 50vw;
     background-color: rgba(0, 0, 0, 0.6);
-    color: $globalFontColor;
-    text-shadow: $globalTextShadow;
-    padding-left: 12vw;
 }
 
 .showLinksContainer {
@@ -20,9 +16,28 @@
     text-wrap: nowrap;
 }
 
+.showHeader {
+    color: $globalFontColor;
+    text-shadow: $globalTextShadow;
+    text-align: center;
+}
+
 .showLinks {
-    text-wrap: wrap;
     @include globalLinks();
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &:after {
+        padding-left: 2px;
+        font-family: 'FontAwesome';
+        content: ' \f019';
+    }
+}
+
+.showNames {
+    color: $globalFontColor;
+    text-shadow: $globalTextShadow;
+    text-align: center;
 }
 
 // Media queries

@@ -9,7 +9,10 @@ pdfjs.GlobalWorkerOptions.workerSrc = new URL(
   import.meta.url
 ).toString();
 
-const PdfRenderer = ({ url }) => {
+// required for production builds
+pdfjs.GlobalWorkerOptions.workerSrc = `//unpkg.com/pdfjs-dist@${pdfjs.version}/build/pdf.worker.min.js`;
+
+const PdfRenderer = ({ url }, { file }) => {
   const [numPages, setNumPages] = useState();
   const [pageNumber, setPageNumber] = useState(1);
 
@@ -32,7 +35,7 @@ const PdfRenderer = ({ url }) => {
   return (
     <div className="pdfContainer">
       <Document
-        file={url}
+        file={url ? url : file}
         onLoadSuccess={onDocumentLoadSuccess}
         className="pdf"
       >

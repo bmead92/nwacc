@@ -3,6 +3,13 @@ import membershipList from "../../assets/files/NWACCClubMembership.pdf";
 import costToBelong from "../../assets/files/TheCostToBelong_20240519.pdf";
 import justWhatIsIt from "../../assets/files/JustWhatIsIt_20240519.pdf";
 import advantageOfClubMembership from "../../assets/files/AdvantageOfClubMembership_20240519.pdf";
+import speedEventGuidelines from "../../assets/files/NWACCSpeedEventGuidelines_Old.pdf";
+import competitionCode from "../../assets/files/NWACCCompetitionCode_Old.pdf";
+import showNShine from "../../assets/files/NWACCShowNShine_Old.pdf";
+import judgesSheet from "../../assets/files/JudgesBriefingSheet.pdf";
+import byLaws from "../../assets/files/ByLaws.pdf";
+import constitution from "../../assets/files/Constitution.pdf";
+import contactUs from "../../assets/files/ContactUs.pdf";
 
 const Strings = {
   pdfDownload: "Download PDF",
@@ -80,19 +87,24 @@ const Strings = {
   ],
   importantDocuments: [
     {
-      label: "Constitution",
-      url: "http://nwacconline.com/constitution.html",
+      name: "Constitution",
+      url: constitution,
       index: 0,
     },
     {
-      label: "By-Laws",
-      url: "http://nwacconline.com/bylaws.html",
+      name: "By-Laws",
+      url: byLaws,
       index: 1,
     },
+    // {
+    //   name: "Reimbursement Form",
+    //   url: "http://nwacconline.com/reimbursement_form.html",
+    //   index: 2,
+    // },
     {
-      label: "Reimbursement Form",
-      url: "http://nwacconline.com/reimbursement_form.html",
-      index: 2,
+      name: "Contact Us",
+      url: contactUs,
+      index: 3,
     },
   ],
   autocross: {
@@ -108,12 +120,12 @@ const Strings = {
     documents: [
       {
         name: "Competition Code",
-        url: "http://nwacconline.com/2020PDFs/2020%20NWACC%20Competition%20Code.pdf",
+        url: competitionCode,
         index: 0,
       },
       {
         name: "Speed Event Guidelines",
-        url: "http://nwacconline.com/2020PDFs/2020%20NWACC%20%20Speed%20Event%20Policies%20and%20Procedures.pdf",
+        url: speedEventGuidelines,
         index: 1,
       },
     ],
@@ -121,11 +133,10 @@ const Strings = {
   membership: {
     pageStrings: {
       header: "Membership",
-      subHeader: "What is the Northwest Association of Corvette Clubs (NWACC)?",
     },
     documents: [
       {
-        name: "Northwest Association of Corvette Clubs (NWACC)",
+        name: "NWACC - Just what is it?",
         url: justWhatIsIt,
         index: 0,
       },
@@ -156,19 +167,19 @@ const Strings = {
     documents: [
       {
         name: "Competition Code",
-        url: "http://nwacconline.com/2020PDFs/2020%20NWACC%20Competition%20Code.pdf",
+        url: competitionCode,
         index: 0,
       },
     ],
     adminDocuments: [
       {
-        name: "NWACC Shine-n-Show Program and Policies",
-        url: "http://nwacconline.com/2020PDFs/NWACC%20Corvette%20Shine-n-Show%20Program%20Policies%20and%20Procedures%20_%202020.pdf",
+        name: "NWACC Show-n-Shine Program and Policies",
+        url: showNShine,
         index: 0,
       },
       {
         name: "NWACC Shine-n-Show Judging Sheet",
-        url: "http://nwacconline.com/2020PDFs/NWACC%20%20Shine%20and%20Show%20Judging%20Form%20-%202020.pdf",
+        url: judgesSheet,
         index: 1,
       },
     ],

@@ -1,5 +1,5 @@
 import "./App.scss";
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Homepage from "./pages/Homepage";
 import Autocross from "./pages/Autocross";
 import Membership from "./pages/Membership";

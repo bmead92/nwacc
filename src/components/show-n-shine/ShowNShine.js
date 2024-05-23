@@ -1,6 +1,5 @@
 import "./ShowNShine.scss";
 import Strings from "../../data/strings/Strings";
-import { NavLink as Link } from "react-router-dom";
 import PdfRenderer from "../shared/pdf/PdfRenderer";
 
 const ShowNShine = () => {
@@ -13,6 +12,7 @@ const ShowNShine = () => {
         {Strings.showNShine.documents.map((doc) => {
           return (
             <div className="showLinksContainer" key={doc.index}>
+              <h2 className="showNames">{doc.name}</h2>
               <PdfRenderer url={doc.url} />
               <a className="showLinks" href={doc.url} download>
                 {Strings.pdfDownload}
@@ -26,6 +26,7 @@ const ShowNShine = () => {
         {Strings.showNShine.adminDocuments.map((doc) => {
           return (
             <div className="showLinksContainer" key={doc.index}>
+              <h2 className="showNames">{doc.name}</h2>
               <PdfRenderer url={doc.url} />
               <a className="showLinks" href={doc.url} download>
                 {Strings.pdfDownload}

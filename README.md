@@ -4,7 +4,7 @@
 
 I re-built this website using React and SASS with minimal external dependencies in order to createa lightweight, reliable, and modern website for this client.
 
-I added media queries to supportt mobile viewing, additionally, I added support for viewing and downloading PDFs.
+I added media queries to support mobile viewing, additionally, I added support for viewing and downloading PDFs.
 
 ![OldHomepage](https://github.com/bmead92/nwacc/assets/93401624/00eb299d-4eda-41b6-a077-673402a03f6c)
 ![Homepage](https://github.com/bmead92/nwacc/assets/93401624/c0c7bf8c-20ea-44c6-b1e0-6ec6a05e7069)

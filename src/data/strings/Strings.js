@@ -6,7 +6,10 @@ import advantageOfClubMembership from "../../assets/files/AdvantageOfClubMembers
 import speedEventGuidelines from "../../assets/files/NWACCSpeedEventGuidelines_Old.pdf";
 import competitionCode from "../../assets/files/NWACCCompetitionCode_Old.pdf";
 import showNShine from "../../assets/files/NWACCShowNShine_Old.pdf";
-import judgesSheet from "../../assets/files/NWACCShowNShineJudgingSheet_Old.pdf";
+import judgesSheet from "../../assets/files/JudgesBriefingSheet.pdf";
+import byLaws from "../../assets/files/ByLaws.pdf";
+import constitution from "../../assets/files/Constitution.pdf";
+import contactUs from "../../assets/files/ContactUs.pdf";
 
 const Strings = {
   pdfDownload: "Download PDF",
@@ -84,19 +87,24 @@ const Strings = {
   ],
   importantDocuments: [
     {
-      label: "Constitution",
-      url: "http://nwacconline.com/constitution.html",
+      name: "Constitution",
+      url: constitution,
       index: 0,
     },
     {
-      label: "By-Laws",
-      url: "http://nwacconline.com/bylaws.html",
+      name: "By-Laws",
+      url: byLaws,
       index: 1,
     },
+    // {
+    //   name: "Reimbursement Form",
+    //   url: "http://nwacconline.com/reimbursement_form.html",
+    //   index: 2,
+    // },
     {
-      label: "Reimbursement Form",
-      url: "http://nwacconline.com/reimbursement_form.html",
-      index: 2,
+      name: "Contact Us",
+      url: contactUs,
+      index: 3,
     },
   ],
   autocross: {

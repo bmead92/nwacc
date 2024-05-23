@@ -9,6 +9,9 @@ pdfjs.GlobalWorkerOptions.workerSrc = new URL(
   import.meta.url
 ).toString();
 
+// required for production builds
+pdfjs.GlobalWorkerOptions.workerSrc = `//unpkg.com/pdfjs-dist@${pdfjs.version}/build/pdf.worker.min.js`;
+
 const PdfRenderer = ({ url }, { file }) => {
   const [numPages, setNumPages] = useState();
   const [pageNumber, setPageNumber] = useState(1);

@@ -41,7 +41,7 @@ const Strings = {
     },
     {
       title: "Secretary",
-      name: "Bob Hooper",
+      name: "Ken Jones",
       picture: placeHolder,
       index: 2,
     },
@@ -54,35 +54,28 @@ const Strings = {
   ],
   committees: [
     {
-      title: "Autocross",
-      name: "Jami Olerich",
+      title: "Member at Large Rep.",
+      name: "Don Goff",
       picture: placeHolder,
       index: 0,
     },
     {
-      title: "Competition",
-      name: "Chuck Hulka",
+      title: "Car Show Chair",
+      name: "Meagan Renick",
       picture: placeHolder,
       index: 1,
     },
     {
-      title: "Insurance",
-      name: "Dave Kaiser",
+      title: "Autocross Chair",
+      name: "Rob Spring",
       picture: placeHolder,
       index: 2,
     },
     {
-      title: "Shine-n-Show",
-      name: "Don Patnoe",
+      title: "Insurance Chair",
+      name: "Dave Kaiser",
       picture: placeHolder,
       index: 3,
-    },
-    {
-      title: `Year End
-      Banquet Hotel`,
-      name: "Jon Cox",
-      picture: placeHolder,
-      index: 4,
     },
   ],
   importantDocuments: [

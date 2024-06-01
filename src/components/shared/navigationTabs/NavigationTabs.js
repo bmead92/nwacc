@@ -27,6 +27,8 @@ const NavigationTabs = () => {
           </Link>
         </div>
       </Collapsible>
+
+      {/* Hide vertical collapsible on desktop, hide this comp when on mobile */}
       <div className="navigationTabsContainer nonMobile">
         {Strings.pages.map((page) => {
           return (

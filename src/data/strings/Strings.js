@@ -10,6 +10,7 @@ import judgesSheet from "../../assets/files/JudgesBriefingSheet.pdf";
 import byLaws from "../../assets/files/ByLaws.pdf";
 import constitution from "../../assets/files/Constitution.pdf";
 import contactUs from "../../assets/files/ContactUs.pdf";
+import expense from "../../assets/files/ExpenseReimbursementForm.pdf";
 import dave from "../../assets/images/DaveKaiser.jpg";
 
 const Strings = {
@@ -90,11 +91,11 @@ const Strings = {
       url: byLaws,
       index: 1,
     },
-    // {
-    //   name: "Reimbursement Form",
-    //   url: "http://nwacconline.com/reimbursement_form.html",
-    //   index: 2,
-    // },
+    {
+      name: "Expense Reimbursement Form",
+      url: expense,
+      index: 2,
+    },
     {
       name: "Contact Us",
       url: contactUs,
@@ -209,44 +210,24 @@ const Strings = {
       header: "NWACC Clubs",
       links: [
         {
-          name: "Columbia River Corvettes",
-          url: "https://columbiarivercorvettes.com/",
-          index: 0,
-        },
-        {
-          name: "Corvettes de Olympia",
-          url: "https://cdeo.clubexpress.com/",
-          index: 1,
-        },
-        {
           name: "Corvette Marque Club of Seattle",
           url: "https://www.corvettemarqueclub.com/",
-          index: 2,
-        },
-        {
-          name: "Puget Sound Corvette Club",
-          url: "https://pugetsoundcorvetteclub.com/",
-          index: 3,
+          index: 0,
         },
         {
           name: "Rose City Corvettes",
           url: "https://www.rosecitycorvettes.org/",
-          index: 4,
+          index: 1,
         },
         {
-          name: "Willamette Valley Corvettes",
-          url: "https://willamettevalleycorvettes.com/contact/",
-          index: 5,
-        },
-        {
-          name: "Glass Odyssey Corvette Club",
-          url: "https://kitsapvettes.org/",
-          index: 6,
+          name: "Corvettes de Olympia",
+          url: "https://cdeo.clubexpress.com/",
+          index: 2,
         },
         {
           name: "Corvettes Unlimited of Bellingham",
           url: "https://corvettesunlimitedbham.com/",
-          index: 7,
+          index: 3,
         },
       ],
     },

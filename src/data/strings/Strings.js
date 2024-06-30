@@ -96,11 +96,6 @@ const Strings = {
       url: expense,
       index: 2,
     },
-    {
-      name: "Contact Us",
-      url: contactUs,
-      index: 3,
-    },
   ],
   autocross: {
     pageStrings: {
@@ -149,6 +144,11 @@ const Strings = {
         name: "Membership List",
         url: membershipList,
         index: 3,
+      },
+      {
+        name: "Contact Us",
+        url: contactUs,
+        index: 4,
       },
     ],
   },

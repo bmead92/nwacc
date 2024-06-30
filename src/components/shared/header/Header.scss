@@ -6,7 +6,25 @@
     text-align: center;
     
 }
+
 .headerText {
     color: $globalFontColor;
     text-shadow: $globalTextShadow;
+}
+
+
+@media (min-width: 768px) {
+    .logo {
+        height: 200px;
+        width: 200px;
+        aspect-ratio: 1 / 1;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .logo {
+        height: 100px;
+        width: 100px;
+        aspect-ratio: 1 / 1;
+    }
 }

@@ -49,18 +49,15 @@
 }
 
 .peopleImage {
-    height: 100px;
-    width: 100px;
+    max-width: 300px;
+    max-height: 225px;
+    aspect-ratio: 4 / 5;
 }
 
 // Media queries
 
 // 4k+
 @media (min-width: 2560px) {
-    .peopleImage {
-        height: 200px;
-        width: 200px;
-    }
     .officersContainer, .committeesContainer {
         padding-left: 4vw;
     }
@@ -71,10 +68,6 @@
 
 // Laptop L
 @media (min-width: 1440px) and (max-width: 2559px) {
-    .peopleImage {
-        height: 150px;
-        width: 150px;
-    }
     .officersContainer, .committeesContainer {
         padding-left: 4vw;
     }
@@ -85,10 +78,7 @@
 
 // Laptop
 @media (min-width: 1024px) and (max-width: 1439px) {
-    .peopleImage {
-        height: 100px;
-        width: 100px;
-    }
+ 
     .officersContainer, .committeesContainer {
         padding-left: 4vw;
     }
@@ -111,12 +101,17 @@
     }
 }
 
-// Mobile L
-@media (min-width: 425px) and (max-width: 767px) {
+// Shared mobile
+@media (min-width: 320px) and (max-width: 767px) {
     .peopleImage {
         height: 100px;
         width: 100px;
     }
+}
+
+// Mobile L
+@media (min-width: 425px) and (max-width: 767px) {
+
     .officer, .committee {
         width: 100%;
     }
@@ -133,10 +128,6 @@
 
 // Mobile M
 @media (min-width: 375px) and (max-width: 424px) {
-    .peopleImage {
-        height: 100px;
-        width: 100px;
-    }
     .officer, .committee {
         width: 100%;
     }
@@ -153,10 +144,6 @@
 
 // Mobile S
 @media (min-width: 320px) and (max-width: 374px) {
-    .peopleImage {
-        height: 100px;
-        width: 100px;
-    }
     .officer, .committee {
         width: 100%;
     }

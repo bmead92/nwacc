@@ -63,15 +63,16 @@
 
 // Shared non-mobile
 @media (min-width: 768px) {
-    .Collapsible__trigger {
-        &:after {
-            font-size: 1.25em;
-        }
+    .Collapsible, .mobileMenu {
+        display: none;
     }
 }
 
 // Shared Mobile
 @media (min-width: 320px) and (max-width: 767px) {
+    .nonMobile {
+        display: none;
+    }
     .navigationTabsContainer {
         flex-direction: column;
     }

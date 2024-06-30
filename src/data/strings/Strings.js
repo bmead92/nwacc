@@ -10,6 +10,8 @@ import judgesSheet from "../../assets/files/JudgesBriefingSheet.pdf";
 import byLaws from "../../assets/files/ByLaws.pdf";
 import constitution from "../../assets/files/Constitution.pdf";
 import contactUs from "../../assets/files/ContactUs.pdf";
+import expense from "../../assets/files/ExpenseReimbursementForm.pdf";
+import dave from "../../assets/images/DaveKaiser.jpg";
 
 const Strings = {
   pdfDownload: "Download PDF",
@@ -41,48 +43,41 @@ const Strings = {
     },
     {
       title: "Secretary",
-      name: "Bob Hooper",
+      name: "Ken Jones",
       picture: placeHolder,
       index: 2,
     },
     {
       title: "Treasurer",
       name: "Dave Kaiser",
-      picture: placeHolder,
+      picture: dave,
       index: 3,
     },
   ],
   committees: [
     {
-      title: "Autocross",
-      name: "Jami Olerich",
+      title: "Member at Large Rep.",
+      name: "Don Goff",
       picture: placeHolder,
       index: 0,
     },
     {
-      title: "Competition",
-      name: "Chuck Hulka",
+      title: "Car Show Chair",
+      name: "Meagan Renick",
       picture: placeHolder,
       index: 1,
     },
     {
-      title: "Insurance",
-      name: "Dave Kaiser",
+      title: "Autocross Chair",
+      name: "Rob Spring",
       picture: placeHolder,
       index: 2,
     },
     {
-      title: "Shine-n-Show",
-      name: "Don Patnoe",
-      picture: placeHolder,
+      title: "Insurance Chair",
+      name: "Dave Kaiser",
+      picture: dave,
       index: 3,
-    },
-    {
-      title: `Year End
-      Banquet Hotel`,
-      name: "Jon Cox",
-      picture: placeHolder,
-      index: 4,
     },
   ],
   importantDocuments: [
@@ -96,15 +91,10 @@ const Strings = {
       url: byLaws,
       index: 1,
     },
-    // {
-    //   name: "Reimbursement Form",
-    //   url: "http://nwacconline.com/reimbursement_form.html",
-    //   index: 2,
-    // },
     {
-      name: "Contact Us",
-      url: contactUs,
-      index: 3,
+      name: "Expense Reimbursement Form",
+      url: expense,
+      index: 2,
     },
   ],
   autocross: {
@@ -154,6 +144,11 @@ const Strings = {
         name: "Membership List",
         url: membershipList,
         index: 3,
+      },
+      {
+        name: "Contact Us",
+        url: contactUs,
+        index: 4,
       },
     ],
   },
@@ -215,44 +210,24 @@ const Strings = {
       header: "NWACC Clubs",
       links: [
         {
-          name: "Columbia River Corvettes",
-          url: "https://columbiarivercorvettes.com/",
-          index: 0,
-        },
-        {
-          name: "Corvettes de Olympia",
-          url: "https://cdeo.clubexpress.com/",
-          index: 1,
-        },
-        {
           name: "Corvette Marque Club of Seattle",
           url: "https://www.corvettemarqueclub.com/",
-          index: 2,
-        },
-        {
-          name: "Puget Sound Corvette Club",
-          url: "https://pugetsoundcorvetteclub.com/",
-          index: 3,
+          index: 0,
         },
         {
           name: "Rose City Corvettes",
           url: "https://www.rosecitycorvettes.org/",
-          index: 4,
+          index: 1,
         },
         {
-          name: "Willamette Valley Corvettes",
-          url: "https://willamettevalleycorvettes.com/contact/",
-          index: 5,
-        },
-        {
-          name: "Glass Odyssey Corvette Club",
-          url: "https://kitsapvettes.org/",
-          index: 6,
+          name: "Corvettes de Olympia",
+          url: "https://cdeo.clubexpress.com/",
+          index: 2,
         },
         {
           name: "Corvettes Unlimited of Bellingham",
           url: "https://corvettesunlimitedbham.com/",
-          index: 7,
+          index: 3,
         },
       ],
     },
